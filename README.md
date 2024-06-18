@@ -6,14 +6,16 @@
 
 - [一、项目说明](#一项目框架)
 - [二、文件说明](#二文件说明)
-  - [2.1 getSru2Vec.py文件](#getStru2Vecpy文件)
-  - [2.2 embeddings_process.py文件](#embeddings_processpy文件)
+  - [2.1 embeddings_process.py文件](#embeddings_processpy文件)
+  - [2.2 getSru2Vec.py文件](#getStru2Vecpy文件)
   - [2.3 process_single_corpus.py文件](#process_single_corpuspy文件)
   - [2.4 python_structured.py文件](#python_structuredpy文件)
   - [2.5 sqlang_structured.py文件](#sqlang_structuredpy文件)
   - [2.6 word_dict.py文件](#word_dictpy文件)
 
-## 一、项目框架
+## 一、项目说明
+
+此项目的python文件是对文本数据进行预测处理。要求对所有函数进行注释。
 ```
 |── hnn_processing  
 │     └── embeddings_process.py  
@@ -23,7 +25,7 @@
 │     └── sqlang_structured.py
 │     └── word_dirt.py
 ```
-此仓库通过修改代码，在不改变代码原始功能的前提下提高代码的规范性、可读性和健壮性。
+
 
 ## 二、文件说明
 
